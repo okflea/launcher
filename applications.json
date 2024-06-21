@@ -1,0 +1,10 @@
+[
+  {
+    "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+    "parameters": "google.com"
+  },
+  {
+    "path": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+    "parameters": "www.example.com"
+  }
+]
