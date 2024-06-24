@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Google Chrome",
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "parameter": "google.com",
+    "icon": "https://img.logo.dev/google.com?token=pk_SEM0bvQ9SQO6ZjDnM3avlg"
+  },
+  {
+    "name": "Internet Explorer",
+    "path": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+    "parameters": "www.example.com",
+    "icon": "https://img.logo.dev/internetexplorer.com?token=pk_SEM0bvQ9SQO6ZjDnM3avlg"
+  }
+]
