@@ -19,3 +19,16 @@ exports.launchApplication = (req, res) => {
     res.status(200).send('Application launched successfully');
   });
 };
+exports.quitApplication = (req, res) => {
+  const { application } = req.body;
+  if (!application) {
+    return res.status(400).send('Application path is required');
+  }
+  const command = `taskkill /IM ${application.split('\\').pop()} /F`;
+  exec(command, (err) => {
+    if (err) {
+      return res.status(500).send(`Failed to quit application: ${err.message}`);
+    }
+    res.send('Application quit successfully');
+  });
+};
